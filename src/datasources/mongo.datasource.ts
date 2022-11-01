@@ -9,8 +9,7 @@ const config = {
   port: 27017,
   user: '',
   password: '',
-  database: 'bloomingmongo',
-  useNewUrlParser: true
+  database: '',
 };
 
 // Observe application's life cycle to disconnect the datasource when
