@@ -4,12 +4,12 @@ import {juggler} from '@loopback/repository';
 const config = {
   name: 'mongo',
   connector: 'mongodb',
-  url: '',
+  url: 'mongodb+srv://Ey_Oc:emilson.17@cluster0.x0lq1ay.mongodb.net/BloomDbretryWrites=true&w=majority',
   host: 'localhost',
   port: 27017,
   user: '',
   password: '',
-  database: '',
+  database: 'BloomDb',
 };
 
 // Observe application's life cycle to disconnect the datasource when
